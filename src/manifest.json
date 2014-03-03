@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Mailto button",
+  "description": "Opens a new email in your default email application (or website) with the current page’s title and address.",
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+
+  },
+  "permissions": [ "http://*/*", "https://*/*" ],
+  "incognito": "split",
+  "offline_enabled": true,
+  "homepage_url": "https://www.aeyoun.priv.no/p/mailto-button/extension.html",
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Email page",
+    "default_icon": {
+      "19": "img/icon19.png",
+      "38": "img/icon38.png"
+    }
+  }
+}
