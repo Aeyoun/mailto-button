@@ -5,7 +5,7 @@ function uriHandler( tab ) {
     function( newTab ) {
       setTimeout( function() {
         chrome.tabs.remove( newTab.id ) },
-        500 )
+        650 )
     }
   )
 }
