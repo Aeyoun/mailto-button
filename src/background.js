@@ -4,7 +4,6 @@ function uriHandler( tab ) {
   chrome.tabs.create( { url: mailto, active: false },
     function( newTab ) {
       setTimeout( function() {
-        console.log(newTab.status);
         chrome.tabs.remove( newTab.id ) },
         500 )
     }
