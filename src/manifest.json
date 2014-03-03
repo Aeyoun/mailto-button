@@ -9,7 +9,7 @@
     "128": "img/icon128.png"
 
   },
-  "permissions": [ "http://*/*", "https://*/*" ],
+  "permissions": [ "contextMenus", "http://*/*", "https://*/*" ],
   "incognito": "split",
   "offline_enabled": true,
   "homepage_url": "https://www.aeyoun.priv.no/p/mailto-button/extension.html",
