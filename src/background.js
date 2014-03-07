@@ -1,4 +1,6 @@
 function uriHandler( tab ) {
+  if ( arguments.length == 2 ) // this is a ContextMenu click
+     var tab = arguments[1];
   var mailto = "mailto:?subject=" + encodeURIComponent( tab.title )
     + "&body=" + encodeURIComponent( tab.title + "\r\n" + tab.url );
   chrome.tabs.create( { url: mailto, active: false },
