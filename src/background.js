@@ -17,5 +17,4 @@ chrome.browserAction.onClicked.addListener( uriHandler );
 
 /* Page context menu */
 chrome.contextMenus.onClicked.addListener( uriHandler );
-
 chrome.contextMenus.create( { id: "menuItem-emailpage", title: "Email page", contexts: [ "page" ] } );
