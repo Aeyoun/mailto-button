@@ -12,7 +12,7 @@
   "permissions": [ "contextMenus", "http://*/*", "https://*/*" ],
   "incognito": "split",
   "offline_enabled": true,
-  "homepage_url": "https://www.aeyoun.priv.no/p/mailto-button/extension.html",
+  "homepage_url": "https://www.aeyoun.com/projects/extensions/mailto-button.html",
   "background": {
     "scripts": [ "background.js" ],
     "persistent": false
